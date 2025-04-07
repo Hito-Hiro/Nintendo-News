@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Konkhmer Sleokchher", sans-serif;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+#Logo{
+    color: red;
+    display: flex;
+    align-items: center;
+}
+#Logo img{
+    margin: 15px;
+    width: 13%;
+}
+#lista-enlaces ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 30px;
+}
+#lista-enlaces li{
+    padding-right: 100%;
+    margin-left: -50%;
+}
+#lista-enlaces li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.parte-superior{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 80px;
+}
+#parte-imagen img{
+    padding: 40px;
+    width: 100%; 
+    max-width: 850px;
+}
+#parte-texto{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 20px;
+}
+#parte-texto h2{
+    font-family: "Konkhmer Sleokchher", sans-serif;
+    color: red;
+    font-size: 40px;
+}
+#resumen{
+    font-family: "Saira", sans-serif;
+    font-size: 20px;
+}
+#vermas{
+    margin-top: 40px;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    font-family: "Konkhmer Sleokchher", sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+#vermas:hover{
+    background-color: red;
+    transition: background-color 0.3s;
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+#blog-general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    max-width: 73%;
+    margin: 0 auto;
+}
+.solo-texto{
+    font-family: "Saira", sans-serif;
+    line-height: 1.8;
+    font-size: large;
+    margin-bottom: 40px;
+}
+.solo-texto h1, h2{
+    font-family: "Konkhmer Sleokchher", sans-serif;
+}
+.pie-de-imagen{
+    color: gray;
+    font-family: "Saira", sans-serif;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(242, 240, 240);
+    margin-top: 50px;
+}
+.cosas-de-mas{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    font-family: "Saira", sans-serif;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.cosas-de-mas h3{
+    font-family: "Konkhmer Sleokchher", sans-serif;
+    font-weight: 200;
+}
+.lista-footer ul{
+    list-style: none;
+}
+.lista-footer li a{
+    color: black;
+    text-decoration: none;
+}
+.lista-footer li a:hover{
+    color: red;
+}
+#contacto-directo a{
+    color: black;
+    text-decoration: none;
+}
+#contacto-directo a:hover{
+    color: red;
+}
+.texto-footer{
+    font-family: "Saira", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
